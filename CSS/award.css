@@ -1,0 +1,112 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main container */
+.cert_main_container {
+    width: 100%;
+    height: 100vh;
+    background: #1f1C2C;
+    padding-top: 10vh; /* Ensures content is visible below the fixed navbar */
+    overflow: auto; /* Allows scrolling if content exceeds viewport */
+}
+
+/* Navigation container */
+.cert_nav_container {
+    width: 100%;
+    height: 10vh;
+    background: rgba(255, 255, 255, 0.15); /* Soft white background */
+    backdrop-filter: blur(6px); /* Softer blur effect */
+    -webkit-backdrop-filter: blur(6px); /* Safari support */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    position: fixed;
+    top: 0; /* Ensures it stays fixed at the top */
+    left: 0; /* Ensures it stays within the viewport */
+    z-index: 999; /* Keeps it above other elements */
+}
+
+/* Back Icon Styles */
+.back-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.back-icon i {
+    margin-right: 8px;
+}
+
+/* Center Text Styles */
+.nav-center h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* Optional: Add more styling for responsiveness */
+@media (max-width: 768px) {
+    .cert_nav_container {
+        height: 8vh; /* Adjust for smaller screens */
+    }
+
+    .nav-center h1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .back-icon {
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+}
+
+/* Certificates Section */
+.certificates_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Individual certificate item */
+.certificate_item {
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.certificate_item:hover {
+    transform: translateY(-10px);
+}
+
+/* Styling the certificate image */
+.certificate_image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+    max-height: 200px;
+}
+
+/* Styling the certificate name */
+.certificate_name {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
