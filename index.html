@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/CSS/card.css">
+    <link rel="stylesheet" href="/CSS/projects.css">
+    <link rel="stylesheet" href="/CSS/css.css">
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <title>Christian</title> 
+</head>
+<body>
+    <div class="main_container">
+        <div class="nav_container">
+            <div class="logo">
+                <h1 onclick="scrollUp()">Christian</h1>
+            </div>
+            
+            <div id="burger" class="burger">&#9776;</div> <!-- burger icon -->
+            <div class="nav" id="navMenu">
+                <ul>
+                    <li><a href="javascript:void(0);" onclick="scrollToProjects()">Projects</a></li>
+                    <li><a href="#about" onclick="scrollToAbout()">About</a></li>
+                    <li><a href="#contact" onclick="scrollToContact()">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="portfolio_contents">
+            <div class="left_container">
+                <div class="text_info_container">
+                    <div class="text_heading">
+                        <h1><span id="typing-text"></span></h1>
+                    </div>
+                    
+                    
+                    <div class="text_info">
+                        <p>I'm a proactive Computer Science graduate with a strong foundation in programming and full stack development using Python, Django, ASP.NET, and ML.NET, passionate about creating innovative, user-centered web applications.</p>
+                    </div>
+                    <div class="portfolio_icon">
+                        <a href="https://www.linkedin.com/public-profile/settings" target="_blank" class="icon-btn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/ChristianAndal" target="_blank" class="icon-btn">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:christianmiguelandal@gmail.com" class="icon-btn">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="/contents/files/Christian Miguel Andal Resume.pdf" class="icon-btn" download>
+                            <i class="fas fa-download"></i>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="right_container">
+                <div class="image_container">
+                    <img src="/contents/profile.png" class="profile_image">
+                </div>
+             
+                
+                    <div class="box_container">
+                        <div class="left_box_contrainer">
+                            <ul class="skills_list">
+                                <li><img src="/contents/image/python.jpg" alt="Python" class="skill-icon"> <span class="skill-name">Python 2025</span></li>
+                                <li><img src="/contents/image/php.png" alt="PHP" class="skill-icon"> <span class="skill-name">PHP 2023</span></li>
+                                <li><img src="/contents/image/csharp.jpg" alt="C#" class="skill-icon"> <span class="skill-name">C# 2023</span></li>
+                                <li><img src="/contents/image/js.png" alt="JavaScript" class="skill-icon"> <span class="skill-name">JavaScript 2023</span></li>
+                                <li><img src="/contents/image/java.jpg" alt="Java" class="skill-icon"> <span class="skill-name">Java 2022</span></li>
+                                <li><img src="/contents/image/django.jpg" alt="Django" class="skill-icon"> <span class="skill-name">Django 2025</span></li>
+                                <li><img src="/contents/image/asp.jpg" alt="ASP.NET" class="skill-icon"> <span class="skill-name">ASP.NET 2023</span></li>
+                                <li><img src="/contents/image/ml.jpg" alt="ML.NET" class="skill-icon"> <span class="skill-name">ML.NET 2024</span></li>
+                                <li><img src="/contents/image/api.jpeg" alt="REST API" class="skill-icon"> <span class="skill-name">REST API 2024</span></li>
+                                <li><img src="/contents/image/html.JPG" alt="HTML" class="skill-icon"> <span class="skill-name">HTML 2021</span></li>
+                                <li><img src="/contents/image/css.jpg" alt="CSS" class="skill-icon"> <span class="skill-name">CSS 2021</span></li>
+                                <li><img src="/contents/image/bootstrap.png" alt="Bootstrap" class="skill-icon"> <span class="skill-name">Bootstrap 2023</span></li>
+                                <li><img src="/contents/image/bi.png" alt="Power BI" class="skill-icon"> <span class="skill-name">Power BI 2025</span></li>
+                                <li><img src="/contents/image/bc.jpg" alt="Business Central" class="skill-icon"> <span class="skill-name">Business Central 2025</span></li>
+                                <li><img src="/contents/image/git.png" alt="Github" class="skill-icon"> <span class="skill-name">Github 2025</span></li>
+                            </ul>
+                        </div>
+                        <div class="right_box_container">
+                            <div class="dev_info">
+                                <h1>FULL STACK DEVELOPER</h1>
+                            </div>
+                            <div class="certificate_container" onclick="window.location.href='award.html';">
+                                <h1>Certifications</h1>
+                            </div>
+                            
+                          
+                        </div>
+                     
+                    </div>
+                    
+                    
+               
+            </div>
+        </div>
+        <br>
+        
+    </div>
+   
+    <div class="new_container">
+        <div class="my_projects_heading">
+            <h1>MY PROJECTS</h1>
+        </div>
+        <div class="projects_container">
+
+<!-- From Uiverse.io by samuelfcosta18 --> 
+<!-- 1st card -->
+<section id="card1" class="card">
+    <div class="card__front">
+        <div class="slideshow-container">
+            <img src="/contents/image/Connect/main.png" alt="Connect Image" class="card__image active">
+            <img src="/contents/image/Connect/login.png" alt="Contact Image 2" class="card__image">
+            <img src="/contents/image/Connect/signup.png" alt="Connect Image 3" class="card__image">
+            <img src="/contents/image/Connect/setup.png" alt="Connect Image 3" class="card__image">
+            <img src="/contents/image/Connect/loader.png" alt="Connect Image 3" class="card__image">
+        </div>
+    </div>
+    <div class="card__back">
+        <div class="card__content">
+            <p class="card__title">Connect: Social Media Platform</p>
+            <p class="card__description">Developing a social media platform using the Python Django framework,
+                featuring real-time interactions with WebSockets. The platform allows users to
+                engage in live chats, instant notifications, and other dynamic interactions,
+                enhancing the user experience with smooth, real-time connectivity.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 2nd card -->
+<section id="card2" class="card">
+    <div class="card__front">
+        <div class="slideshow-container">
+            <img src="/contents/image/Moto/login.png" alt="Moto Card Image" class="card__image active">
+            <img src="/contents/image/Moto/dash.png" alt="Moto Card Image 2" class="card__image">
+            <img src="/contents/image/Moto/dash2.png" alt="Moto Card Image 3" class="card__image">
+            <img src="/contents/image/Moto/cash.png" alt="Moto Image 4" class="card__image">
+            <img src="/contents/image/Moto/dss.png" alt="Moto Image 5" class="card__image">
+            <img src="/contents/image/Moto/dss1.png" alt="Moto Image 6" class="card__image">
+            <img src="/contents/image/Moto/category.png" alt="Moto Image 6" class="card__image">
+            <img src="/contents/image/Moto/audit.png" alt="Moto Image 6" class="card__image">
+            <img src="/contents/image/Moto/trans.png" alt="Moto Image 6" class="card__image">
+            <img src="/contents/image/Moto/rep.png" alt="Moto Image 6" class="card__image">
+
+        </div>
+    </div>
+    <div class="card__back">
+        <div class="card__content">
+            <p class="card__title">MasterMoto: Web-Based Inventory Optimization and Demand
+                Forecasting DSS</p>
+            <p class="card__description">Developed a demand forecasting system using ML.NET integrated with a POS
+                platform to automate restocking and improve inventory management, reducing
+                stockouts and enhancing operational efficiency.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 3rd card -->
+<section id="card3" class="card">
+    <div class="card__front">
+        <div class="slideshow-container">
+            <img src="/contents/image/cats/dash.png" alt="Cat Card Image" class="card__image active">
+            <img src="/contents/image/cats/monalog.png" alt="Cat Image 2" class="card__image">
+            <img src="/contents/image/cats/game1.png" alt="Cat Image 3 " class="card__image">
+            <img src="/contents/image/cats/game2.png" alt="Cat Image 4" class="card__image">
+            <img src="/contents/image/cats/game3.png" alt="Cat Image 5" class="card__image">
+            <img src="/contents/image/cats/combat 1.png" alt="Cat Image 6" class="card__image">
+            <img src="/contents/image/cats/cambat 2.png" alt="Cat Image 7" class="card__image">
+            <img src="/contents/image/cats/concert.png" alt="Cat Image 8" class="card__image">
+            <img src="/contents/image/cats/ice.png" alt="Cat Image 9" class="card__image">
+            <img src="/contents/image/cats/boss.png" alt="Cat Image 10" class="card__image">
+            <img src="/contents/image/cats/ice2.png" alt="Cat Image 11" class="card__image">
+            <img src="/contents/image/cats/end.png" alt="Cat Image 12" class="card__image">
+            <img src="/contents/image/cats/endtxt.png" alt="Cat Image 13" class="card__image">
+        </div>
+    </div>
+    <div class="card__back">
+        <div class="card__content">
+            <p class="card__title">Cats Away RPG Game</p>
+            <p class="card__description">Built a role-playing game in Unity using C#, focusing on gameplay mechanics,
+                user interactions, and environment design to create an engaging player
+                experience and boost user retention.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 4th card -->
+<section id="card4" class="card">
+    <div class="card__front">
+        <div class="slideshow-container">
+            <img src="/contents/image/company/login.png" alt="Company Card Image" class="card__image active">
+            <img src="/contents/image/company/timein.png" alt="Company Card Image 2" class="card__image">
+            <img src="/contents/image/company/qr.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/qr2.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/log.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/dash.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con1.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con2.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con3.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/chat.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con4.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con5.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con6.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con7.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con8.png" alt="Company Card Image 3" class="card__image">
+            <img src="/contents/image/company/con9.png" alt="Company Card Image 3" class="card__image">
+            
+        </div>
+    </div>
+    <div class="card__back">
+        <div class="card__content">
+            <p class="card__title">Company Management System with QR Code Attendance</p>
+            <p class="card__description">Developed a PHP-based system with QR code attendance to automate
+                attendance tracking, reduce errors, and improve operational efficiency for better
+                management.</p>
+        </div>
+    </div>
+</section>
+
+<!-- 5th card -->
+<section id="card5" class="card">
+    <div class="card__front">
+        <div class="slideshow-container">
+            <img src="/contents/image/ecom/1.png" alt="Ecom Card Image" class="card__image active">
+            <img src="/contents/image/ecom/2.png" alt="Ecom Card Image 2" class="card__image">
+            <img src="/contents/image/ecom/3.png" alt="Ecom Card Image 2" class="card__image">
+            <img src="/contents/image/ecom/4.png" alt="Ecom Card Image 2" class="card__image">
+            <img src="/contents/image/ecom/5.png" alt="Ecom Card Image 2" class="card__image">
+            <img src="/contents/image/ecom/6.png" alt="Ecom Card Image 2" class="card__image">
+        </div>
+    </div>
+    <div class="card__back">
+        <div class="card__content">
+            <p class="card__title">Etcetera Ecommerce Website</p>
+            <p class="card__description">Built a robust e-commerce platform to streamline company operations and
+                enhance efficiency through advanced features and system integration</p>
+        </div>
+    </div>
+</section>
+
+
+
+        </div>
+    </div>
+    <div class="about_container">
+        <div class="animated-text">
+            <span>With</span> 
+            <span>every</span> 
+            <span>challenge,</span> 
+            <span>I</span> 
+            <span>seek</span> 
+            <span>to</span> 
+            <span>turn</span> 
+            <span>imaginative</span> 
+            <span>ideas</span> 
+            <span>into</span> 
+            <span>real-world</span> 
+            <span>applications,</span> 
+            <span>driving</span> 
+            <span>change</span> 
+            <span>and</span> 
+            <span>creating</span> 
+            <span>meaningful</span> 
+            <span>results.</span>
+          </div>
+      </div>
+      <div class="contact_container">
+        <h2>Contact me!</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+    
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>© July 2025 Christian Andal. All rights reserved.</p>
+    </div>
+    
+</body>
+<script src="/Script/scroll_project.js"></script>
+<script src="/Script/text_animation.js"></script>
+<script src="/Script/connect_image.js"></script>
+<script src="/Script/moto_image.js"></script>
+<script src="/Script/cats_image.js"></script>
+<script src="/Script/menu_responsive.js"></script>
+<script src="/Script/company_image.js"></script>
+<script src="/Script/ecom_image.js"></script>
+
+
+</html>
