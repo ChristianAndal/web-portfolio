@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+    .main_container > * {
+        position: relative;
+        z-index: 1;
+    }
+    .main_container > * {
+        position: relative;
+        z-index: 1;
+    }
+      .main_container::before {
+        content: "";
+        position: absolute;
+        top: -150%;
+        left: -150%;
+        width: 300%;
+        height: 300%;
+        background: radial-gradient(circle, #1f1C2C 10%, transparent 20%),
+          radial-gradient(circle, transparent 10%, #1f1C2C 20%);
+        background-size: 30px 30px; /* Adjust the size of the pattern */
+        animation: moveBackground 20s linear infinite; /* Adjust the animation duration and timing function */
+      }
+      .text_info_container{
+        margin-top: -60%;
+      }
+      .image_container {
+        width: 200px;
+        height: 200px;
+        margin-right: 105%;
+        margin-bottom: 120%;
+        position: relative;
+        z-index: 1; 
+      }
+      .text_info p {
+      
+        width: 230%;
+      }
+
+.left_container{
+    margin-top: 5%;
+}
+.box_container{
+
+    margin-top: 80%;
+    margin-left: -180%;
+    display: flex;
+    margin-right: -30%;
+    padding: 1%;
+}
+.left_box_contrainer{
+    margin-top: 10%;
+    width: 500%;
+    height: 22vh;
+}
+.right_box_container{
+    margin-top: 50%;
+    margin-right: 100%;
+
+}
+.dev_info{
+margin-top: 180%;
+margin-right: 550%;
+width: 500%;
+height: 10vh;
+font-size: .6rem;
+margin-bottom: 10%;
+}
+.certificate_container{
+    margin-right: 550%;
+    width: 500%;
+    height: 10vh;
+    font-size: .6rem;
+
+}
+
+
+.new_container{
+    height: 150vh;
+}
+.my_projects_heading{
+    margin-bottom: 20%;
+}
+
+.contact_container{
+    width: 80%;
+    height: 90vh;
+}
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+        background: rgba(31, 28, 44, 0.95);
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+/* Navigation */
+.nav.active {
+    z-index: 1000; /* Higher z-index to bring it above the image */
+}
+
+    .nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav ul li a {
+        font-size: 30px;
+        transition: color 0.3s ease;
+    }
+    .nav ul li a:hover {
+        color: #ffcc00;
+    }
+}
