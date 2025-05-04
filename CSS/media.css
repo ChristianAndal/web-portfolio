@@ -2,18 +2,16 @@
     .main_container > * {
         position: relative;
         z-index: 1;
+        
     }
-    .main_container > * {
-        position: relative;
-        z-index: 1;
-    }
+
       .main_container::before {
         content: "";
         position: absolute;
         top: -150%;
         left: -150%;
         width: 300%;
-        height: 300%;
+        height: 400%;
         background: radial-gradient(circle, #1f1C2C 10%, transparent 20%),
           radial-gradient(circle, transparent 10%, #1f1C2C 20%);
         background-size: 30px 30px; /* Adjust the size of the pattern */
@@ -23,8 +21,8 @@
         margin-top: -60%;
       }
       .image_container {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         margin-right: 105%;
         margin-bottom: 120%;
         position: relative;
