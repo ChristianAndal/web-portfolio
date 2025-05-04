@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
     .main_container > * {
         position: relative;
         z-index: 1;
