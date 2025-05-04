@@ -7,7 +7,7 @@
     .main_container > * {
         position: relative;
         z-index: 1;
-        overflow: hidden;
+        
     }
     .main_container > * {
         position: relative;
