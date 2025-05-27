@@ -5,13 +5,14 @@
 }
 body{
     background: #1f1C2C;
+    overflow-x: hidden;
 }
 .main_container{
     background: #1f1C2C;
     height: 110vh;
     width: 100%;
     display: inline-block;
-
+    overflow: hidden;
 }
 
 /*background */
